@@ -1,0 +1,720 @@
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/meanmenu.min.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/boxicons.min.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/flaticon.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.min.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/animate.min.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/owl.carousel.min.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/dark.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/responsive.css') }}" />
+
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='assets/images/favicon-removebg-preview.png') }}" alt = "logo" />
+
+<title>CardioHealth Provisions</title>
+</head>
+<body>
+
+<div class="loader-content">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="sk-folding-cube">
+<div class="sk-cube1 sk-cube"></div>
+<div class="sk-cube2 sk-cube"></div>
+<div class="sk-cube4 sk-cube"></div>
+<div class="sk-cube3 sk-cube"></div>
+</div>
+</div>
+</div>
+</div>
+
+
+<header class="header-area">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-2 col-sm-12">
+<div class="logo">
+<a href="/">
+    <div  style="display: flex;justify-content: center;align-items: center;">
+    <img src="{{ url_for('static', filename='assets/images/new_logo.png') }}" alt="logo"  style="max-width: 60%; height: 50%;"/>
+    <h2 style="margin-top:7px;">CardioHealth</h2>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+
+<div class="header-area">
+<div class="mobile-nav">
+<a href="/" class="logo">
+<img src="{{ url_for('static', filename='assets/images/new_logo.png') }}" alt="logo" />
+</a>
+</div>
+
+
+<div class="main-nav">
+<div class="container">
+<nav class="navbar navbar-expand-md navbar-light">
+<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+<ul class="navbar-nav text-left">
+
+
+<li class="nav-item">
+<a href="/" class="nav-link active">HOME</a>
+</li>
+
+<li class="nav-item">
+<a href="/about" class="nav-link">ABOUT</a>
+</li>
+
+<li class="nav-item">
+<a href="/prognosis" class="nav-link">PROGNOSIS</a>
+</li>
+
+<li class="nav-item">
+    <a href="/diet" class="nav-link">DIET</a>
+</li>
+
+<li class="nav-item">
+    <a href="/exercise" class="nav-link">Exercise</a>
+  </li>
+
+<li class="nav-item">
+<a href="/cardioguide" class="nav-link">CARDIO GUIDE</a>
+<ul>
+</ul>
+</li>
+
+
+<li class="nav-item">
+<a href="/blog" class="nav-link">BLOG</a>
+</li>
+<li class="nav-item">
+<a href="/contact" class="nav-link">CONTACT </a>
+</li>
+</ul>
+</div>
+<div class="nav-right">
+
+</div>
+<div class="nav-btn">
+<a href="/prognosis" class="box-btn">Get Started</a>
+</div>
+</nav>
+</div>
+</div>
+</div>
+
+
+<section class="banner-area">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6">
+<div class="banner-content">
+<h1>CardioHealth Provisions</h1>
+<p>
+Cultivate a Heart of Strength with CardioHealth Provisions! Uncover diet strategies, expert-led exercises, and tailored guidance for your heart's vitality. We're here to empower your cardiovascular journey, offering comprehensive solutions to fortify and invigorate your heart's health. Take the first step toward a resilient heart and a vibrant life – join CardioHealth Provisions today!
+</p>
+<div class="banner-btn">
+<a href="/contact" class="box-btn">Contact Us</a>
+<a href="/about" class="box-btn border-btn">Know More</a>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="banner-img">
+    <div class="whiteimagehigh">
+        <img src="{{ url_for('static', filename='assets/images/homerep-removebg-preview.png') }}" alt="banner-img" />
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="home-shape">
+<div class="shape1">
+<img src="{{ url_for('static', filename='assets/images/float/med.png') }}" alt="shape">
+</div>
+<div class="shape2">
+<img src="{{ url_for('static', filename='assets/images/float/hear.png') }}" alt="shape">
+</div>
+<div class="shape3">
+<img src="{{ url_for('static', filename='assets/images/shape/3.png') }}" alt="shape">
+</div>
+<div class="shape4">
+<img src="{{ url_for('static', filename='assets/images/shape/4.png') }}" alt="shape">
+</div>
+<div class="shape5">
+<img src="{{ url_for('static', filename='assets/images/shape/5.png') }}" alt="shape">
+</div>
+<div class="shape6">
+<img src="{{ url_for('static', filename='assets/images/shape/6.png') }}" alt="shape">
+</div>
+</div>
+</section>
+
+
+
+<section class="home-company-area bg-color">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6 col-md-12">
+<div class="company-content">
+<div class="company-tittle">
+<span>Our Website</span>
+<h2>Empowering Hearts, One Beat at a Time</h2>
+<p>Nurturing Hearts Globally, Step by Step: Our Website's Compassionate Mission. We dedicate ourselves to fostering global heart wellness, guiding individuals toward healthier lives with care and support. Through informative resources, tailored advice, and a commitment to each heartbeat, we aim to improve heart health worldwide, one individual at a time.</p>
+<p>Embrace the journey with us – where every beat resonates across continents!</p>
+</div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12">
+<div class="company-img">
+    <div class = "aquaimagehigh">
+        <img src="{{ url_for('static', filename='assets/images/he.jpg') }}" alt="company" />
+    </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section class="choose-area ptb-100">
+<div class="container">
+<div class="section-title">
+<span>Choose CardioHealth Provisions</span>
+<h2>Our Dedication to Exceptional Service Builds Trust, Reflecting Our Website's Commitment to Excellence</h2>
+</div>
+<div class="row align-items-center">
+<div class="col-lg-6">
+<div class="choose-img">
+    <div class="whiteimagehigh">
+        <img src="{{ url_for('static', filename='assets/images/ho4-removebg-preview.png') }}" alt="choose" />
+    </div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="choose-content">
+<div class="faq-accordion">
+<ul class="accordion">
+<li class="accordion-item">
+<div class="icon">
+<i class="flaticon-friends"></i>
+</div>
+<a class="accordion-title active" href="javascript:void(0)">
+<i class="bx bx-plus"></i> Great Understanding
+</a>
+<p class="accordion-content show">
+    Tailored services based on user needs and comprehensive educational resources for heart health awareness.
+</p>
+</li>
+<li class="accordion-item">
+<div class="icon">
+<i class="flaticon-chip"></i>
+</div>
+<a class="accordion-title" href="javascript:void(0)">
+<i class="bx bx-plus"></i>Update Technology
+</a>
+<p class="accordion-content">
+Cutting-edge algorithms, responsive design, and robust security measures ensure a seamless and secure user experience.
+</p>
+</li>
+<li class="accordion-item">
+<div class="icon">
+<i class="flaticon-like"></i>
+</div>
+<a class="accordion-title" href="javascript:void(0)">
+<i class="bx bx-plus"></i>Dedicated Research and Collaboration
+</a>
+<p class="accordion-content">
+Dedicated to evidence-based content, collaborations with experts ensure credibility, innovation, and user-centered solutions for heart health
+</p>
+</li>
+<li class="accordion-item">
+<div class="icon">
+<i class="flaticon-award"></i>
+</div>
+<a class="accordion-title" href="javascript:void(0)">
+<i class="bx bx-plus"></i>Best Quality Service
+</a>
+<p class="accordion-content">
+Expert collaboration, continuous improvement, and dedicated customer support prioritize excellence for a superior user journey toward wellness.
+</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="home-process-area pt-100 pb-70">
+<div class="container">
+<div class="section-title">
+<span>Working Process</span>
+<h2>We are popular because of our way of working</h2>
+</div>
+<div class="row">
+<div class="col-lg-3 col-sm-6">
+<div class="single-process">
+<div class="icon">
+<img src="{{ url_for('static', filename='assets/images/research-removebg-preview.png') }}" alt="process" />
+<span>
+<img src="{{ url_for('static', filename='assets/images/process/next.png') }}" alt="shape" />
+</span>
+</div>
+<div class="content">
+<h3>Research & Understanding:</h3>
+<p>
+In-depth research, user profiling for tailored recommendations, understanding individual needs in heart health.
+</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6">
+<div class="single-process">
+<div class="icon">
+<img src="{{ url_for('static', filename='assets/images/Collaboration-removebg-preview.png') }}" alt="process" />
+<span class="pro-span">
+<img src="{{ url_for('static', filename='assets/images/process/next.png') }}" alt="shape" />
+</span>
+</div>
+<div class="content">
+<h3>Collaboration & Expertise</h3>
+<p>
+Expert partnerships, interdisciplinary collaboration for credible advice, leveraging diverse expertise in heart health.
+</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6">
+<div class="single-process">
+<div class="icon">
+<img src="{{ url_for('static', filename='assets/images/innovative-removebg-preview.png') }}" alt="process" />
+<span>
+<img src="{{ url_for('static', filename='assets/images/process/next.png') }}" alt="shape" />
+</span>
+</div>
+<div class="content">
+<h3>Innovation & Adaptability</h3>
+<p>
+Innovative solutions, adaptability to emerging trends, integrating technology for refined heart health recommendations.
+</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6">
+<div class="single-process">
+<div class="icon">
+<img src="{{ url_for('static', filename='assets/images/user-removebg-preview.png') }}" alt="process" />
+</div>
+<div class="content">
+<h3>User-Centric Delivery</h3>
+<p>
+Recommendations, transparent communication, tailored advice fostering trust, guiding individuals in heart health journeys.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section class="feature-area bg-color ptb-100">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-6">
+<div class="contnet">
+<div class="feature-tittle">
+<span>Features</span>
+<h2>We Have Also Some Features That Provided by CardioHealth Provisions</h2>
+</div>
+<ul>
+<li>
+<i class="flaticon-correct"></i>
+Health Assessment
+</li>
+<li>
+<i class="flaticon-correct"></i>
+Diet Plans
+</li>
+<li>
+<i class="flaticon-correct"></i>
+Exercise Routines
+</li>
+<li>
+<i class="flaticon-correct"></i>
+Regular Updates and News
+</li>
+</ul>
+<a href = "/contact" class="box-btn">Lets Talk!</a>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="feature-img">
+    <div class="whiteimagehigh">
+        <img src="{{ url_for('static', filename='assets/images/ho5-removebg-preview__1_-removebg-preview.png') }}" alt="feature" />
+    </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="client-area ptb-100 bg-color">
+    <div class="container">
+    <div class="section-title">
+    <span>Mentor</span>
+    <h2>Visionary Mentor: Illuminating Paths to Empowered Lives</h2>
+    <p>We express our profound gratitude to Sri.K N V S Varma Sir for their invaluable guidance and expertise, which played a pivotal role in propelling our project. Their steadfast support and mentorship have profoundly influenced our growth. We are sincerely appreciative of the privilege bestowed upon us to work under their esteemed guidance.</p>
+    </div>
+    <!-- <div class="client-wrap owl-carousel owl-theme"> -->
+    <div class="single-client">
+    <img style="max-height: 60%;"  src="{{ url_for('static', filename='assets/images/team/yashwanth1.jpeg') }}" alt="team"/>
+    
+    <h3 style="margin-top: 15%;">Sri.K N V S Varma</h3>
+    <span>Assistant Professor</span>
+    <p>here is the space for Sir details </p>
+    </div>
+    
+    </div>
+    </div>
+</section>
+
+<section class="home-team-area ptb-100">
+    <div class="container">
+    <div class="section-title">
+    <span>Team Members</span>
+    <h2>Our Visionary Team: Architects of Innovation and Progress</h2>
+    <p>Every team member brings diverse expertise, fueling our mission to redefine heart health with innovative care and understanding</p>
+    </div>
+    <div class="home-team">
+    <div class="single-team">
+    <div class="team-img">
+    <img style="max-height: 260px;" src="{{ url_for('static', filename='assets/images/team/jyothi1.jpeg') }}" alt="team" width="270px"/>
+    <ul class="social">
+    <li>
+    <a href="#" target="_blank"><i class="bx bxl-linkedin"></i></a>
+    </li>
+    <li>
+    <a href="#" target="_blank"><i class="bx bxl-facebook"></i></a>
+    </li>
+    <li>
+    <a href="#" target="_blank"><i class="bx bxl-twitter"></i></a>
+    </li>
+    <li>
+    <a href="#" target="_blank"><i class="bx bxs-envelope"></i></a>
+    </li>
+    </ul>
+    </div>
+    <div class="content text-center">
+    <h3>Odugu Parimala Jyothi</h3>
+    <p>20B91A04H6</p>
+    </div>
+    </div>
+    <div class="single-team">
+    <div class="team-img">
+    <img style="max-height: 260px;" src="{{ url_for('static', filename='assets/images/team/prerana.jpeg') }}" alt="team" width="270px"/>
+    <ul class="social">
+    <li>
+    <a href="#" target="_blank"><i class="bx bxl-linkedin"></i></a>
+    </li>
+    <li>
+    <a href="#" target="_blank"><i class="bx bxl-facebook"></i></a>
+    </li>
+    <li>
+    <a href="#" target="_blank"><i class="bx bxl-twitter"></i></a>
+    </li>
+    <li>
+    <a href="#" target="_blank"><i class="bx bxs-envelope"></i></a>
+    </li>
+    </ul>
+    </div>
+    <div class="content text-center">
+    <h3>Pragada Prerana</h3>
+    <p>20B91A04J6</p>
+    </div>
+    </div>
+    <div class="single-team">
+    <div class="team-img">
+    <img style="max-height: 260px;" src="{{ url_for('static', filename='assets/images/team/yashwanth1.jpeg') }}" alt="team" width="270px"/>
+    <ul class="social">
+    <li>
+    <a href="#" target="_blank"><i class="bx bxl-linkedin"></i></a>
+    </li>
+    <li>
+    <a href="#" target="_blank"><i class="bx bxl-facebook"></i></a>
+    </li>
+    <li>
+    <a href="#" target="_blank"><i class="bx bxl-twitter"></i></a>
+    </li>
+    <li>
+    <a href="#" target="_blank"><i class="bx bxs-envelope"></i></a>
+    </li>
+    </ul>
+    </div>
+    <div class="content text-center">
+    <h3>Pepakayala Yashwanth</h3>
+    <p>20B91A04I9</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <style>
+        .home-team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+    
+        .single-team {
+            flex: 0 0 calc(33.33% - 20px);
+            max-width: calc(22% - 20px);
+        }
+    
+        .team-img img {
+            max-width: 100%;
+            height: auto;
+            max-height: 260px;
+        }
+
+    
+        @media screen and (max-width: 768px) {
+            .single-team {
+                flex: 0 0 calc(50% - 20px);
+                max-width: calc(50% - 20px);
+            }
+        }
+    
+        @media screen and (max-width: 480px) {
+            .single-team {
+                flex: 0 0 calc(100% - 20px);
+                max-width: calc(100% - 20px);
+            }
+        }
+    </style>
+    
+
+<section class="home-blog-area ptb-100">
+<div class="container">
+<div class="section-title">
+<span>Blog Post</span>
+<h2>Blogs</h2>
+</div>
+<div class="row">
+<div class="col-lg-4 col-md-6">
+<div class="single-blog">
+<div class="blog-img">
+<a href="/blog">
+<img src="{{ url_for('static', filename='assets/images/blog/exercises.jpg') }}" alt="blog">
+</a>
+</div>
+<div class="content">
+<ul>
+<li>
+<a href="https://www.abiomed.com/about-us/our-story">By Abiomed</a>
+</li>
+</ul>
+<a href="/blog">
+<h3>Heart Healthy Exercises</h3>
+</a>
+<p>Resistance training builds muscle, aerobic exercises boost circulation, while stretching aids overall fitness for heart health and longevity</p>
+<a href="/blog" class="line-bnt">Read More</a>
+</div>
+</div>
+</div>
+
+<div class="col-lg-4 col-md-6">
+<div class="single-blog">
+<div class="blog-img">
+<a href="/blog">
+<img src="{{ url_for('static', filename='assets/images/blog/heart1.png') }}" alt="blog">
+</a>
+</div>
+<div class="content">
+<ul>
+<li>
+<a href="https://www.abiomed.com/about-us/our-story">By Abiomed</a>
+</li>
+</ul>
+<a href="/blog">
+<h3>Heart Anatomy & Function</h3>
+</a>
+<p>The heart, with four chambers, pumps blood through the body following electrical signals, maintaining steady circulation and rhythm.</p>
+<a href="/blog" class="line-bnt">Read More</a>
+</div>
+</div>
+</div>
+
+
+<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+<div class="single-blog">
+<div class="blog-img">
+<a href="/blog">
+<img src="{{ url_for('static', filename='assets/images/blog/diet2.jpg') }}" alt="blog">
+</a>
+</div>
+<div class="content">
+<ul>
+<li>
+<a href="https://www.abiomed.com/about-us/our-story">By Abiomed</a>
+</li>
+</ul>
+<a href="/blog">
+<h3>Healthy Diet</h3>
+</a>
+<p>Eating for heart health involves fruits, veggies, whole grains, lean proteins, limited red meat, and consulting your physician beforehand.</p>
+<a href="https://www.abiomed.com/patients-and-caregivers/blog/what-is-a-heart-healthy-diet" class="line-bnt">Read More</a>
+</div>
+</div>
+</div>
+
+
+</div>
+<div class="blog-btn text-center">
+<p>We Have More Usefull Blogs For You. <a href="/blog">View More</a></p>
+</div>
+</div>
+</section>
+
+
+<footer class="footer-area pt-100">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-md-6">
+<div class="content">
+<div class="logo">
+<a href="/"><img src="{{ url_for('static', filename='assets/images/new_logo.png') }}" alt="logo" /></a>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="content ml-15">
+<h3>Our Services</h3>
+<ul class="footer-list">
+<li><a> Health Assessments</a></li>
+<li><a> Diet Plans</a></li>
+<li><a> Exercise Routines</a></li>
+<li><a> Regular Updates</a></li>
+<li><a> Blog </a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-2 col-md-6">
+<div class="content">
+<h3>Quick Links</h3>
+<ul class="footer-list">
+<li><a href="/prognosis">Prognosis</a></li>
+<li><a href="/diet">Diet</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="content contacts">
+<h3 class="ml-40">Contact</h3>
+<ul class="footer-list foot-social">
+<li><i class="bx bxs-envelope"></i><a href="/contact"> Contact</a></li>
+<li><i class="bx bxs-map"></i><a href="https://srkrec.edu.in/"> SRKR Engineering College, Bhimavaram, Andhra Pradesh</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="copy-area">
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+<ul class="menu">
+<li><a href="/">HOME</a></li>
+<li><a href="/about">ABOUT</a></li>
+<li><a href="/prognosis">PROGNOSIS</a></li>
+<li><a href="/diet">DIET</a></li>
+<li><a href="/cardioguide">CARDIO GUIDE</a></li>
+<li><a href="/blog">BLOG</a></li>
+<li><a href="/contact">CONTACT</a></li>
+</ul>
+</div>
+<div class="col-lg-6">
+<p class="right">
+Copyright @2023 CardioHealth Provisions.
+</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+
+<style>
+
+        .aquaimagehigh{
+            filter: drop-shadow(10px 7px 10px Aqua);
+        }
+
+        .whiteimagehigh{
+            filter: drop-shadow(10px 7px 10px );
+        }
+
+</style>
+
+
+
+<div class="go-top">
+<i class="bx bx-chevrons-up"></i>
+<i class="bx bx-chevrons-up"></i>
+</div>
+
+
+<script data-cfasync="false" src="{{ url_for('static', filename='../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js') }}"></script><script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/bootstrap.bundle.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/meanmenu.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/magnific-popup.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/owl.carousel.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/wow.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/isotope.pkgd.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/ajaxchimp.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/form-validator.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/contact-form-script.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+</body>
+
+</html>

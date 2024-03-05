@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/bootstrap.min.css') }}">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/meanmenu.min.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/boxicons.min.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/flaticon.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/magnific-popup.min.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/animate.min.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/owl.carousel.min.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/dark.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/responsive.css') }}" />
+
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='assets/images/favicon-removebg-preview.png') }}" />
+
+<title>CardioHealth Provisions</title>
+</head>
+<body>
+
+<div class="loader-content">
+<div class="d-table">
+<div class="d-table-cell">
+<div class="sk-folding-cube">
+<div class="sk-cube1 sk-cube"></div>
+<div class="sk-cube2 sk-cube"></div>
+<div class="sk-cube4 sk-cube"></div>
+<div class="sk-cube3 sk-cube"></div>
+</div>
+</div>
+</div>
+</div>
+
+
+<header class="header-area">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-lg-2 col-sm-0">
+<div class="logo">
+<a href="/">
+    <div  style="display: flex;justify-content: center;align-items: center;">
+    <img src="{{ url_for('static', filename='assets/images/new_logo.png') }}" alt="logo"  style="max-width: 60%; height: 50%;"/>
+    <h2 style="margin-top:7px;">CardioHealth</h2>
+</div>
+</a>
+</div>
+</div>
+<div class="col-lg-8 col-sm-8 text-right pr-0">
+<div class="header-content-right">
+</ul>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+
+<div class="header-area">
+<div class="mobile-nav">
+<a href="/" class="logo">
+<img src="{{ url_for('static', filename='assets/images/new_logo.png') }}" alt="logo" />
+</a>
+</div>
+<div class="main-nav">
+<div class="container">
+<nav class="navbar navbar-expand-md navbar-light">
+<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+<ul class="navbar-nav text-center">
+<li class="nav-item">
+<a href="/" class="nav-link">HOME</a>
+</li>
+<li class="nav-item">
+<a href="/about" class="nav-link">ABOUT</a>
+</li>
+<li class="nav-item">
+<a href="/prognosis" class="nav-link">PROGNOSIS</a>
+</li>
+<li class="nav-item">
+    <a href="/diet" class="nav-link active">DIET</a>
+</li>
+<li class="nav-item">
+    <a href="/exercise" class="nav-link">Exercise</a>
+  </li>
+<li class="nav-item">
+<a href="/cardioguide" class="nav-link">CARDIO GUIDE</a>
+</li>
+<li class="nav-item">
+<a href="/blog" class="nav-link">BLOG</a>
+</li>
+
+<li class="nav-item">
+<a href="/contact" class="nav-link">CONTACT </a>
+</li>
+</ul>
+</div>
+<div class="nav-right">
+</div>
+<div class="nav-btn">
+<a href="/prognosis" class="box-btn">Get Started</a>
+</div>
+</nav>
+</div>
+</div>
+</div>
+
+
+<div class="page-title-area">
+<div class="container">
+<div class="page-title-content">
+<h2>Diet</h2>
+<ul>
+<li>
+<a href="/">
+Home
+</a>
+</li>
+<li class="active">Diet</li>
+</ul>
+</div>
+</div>
+<div class="page-shape">
+<div class="shape1">
+<img src="{{ url_for('static', filename='assets/images/shape/1.png') }}" alt="shape" />
+</div>
+<div class="shape3">
+<img src="{{ url_for('static', filename='assets/images/shape/3.png') }}" alt="shape" />
+</div>
+<div class="shape4">
+<img src="{{ url_for('static', filename='assets/images/shape/4.png') }}" alt="shape" />
+</div>
+<div class="shape5">
+<img src="{{ url_for('static', filename='assets/images/shape/5.png') }}" alt="shape" />
+</div>
+<div class="shape6">
+<img src="{{ url_for('static', filename='assets/images/shape/6.png') }}" alt="shape" />
+</div>
+</div>
+</div>
+
+
+<section class="choose-area ptb-100">
+    <div class="container">
+    <div class="section-title">
+    <span>Explore your Diet</span>
+    <h2>Discover the Delicious Foods Essential for Nurturing Heart Health!</h2>
+    </div>
+    <br><br>
+    <h2 class="left-heading">CHOLESTEROL</h2>
+    <div class="row align-items-center">
+    <div class="col-lg-6">
+    <div class="choose-img">
+    <img src="{{ url_for('static', filename='assets/images/diet/cholesterol.png') }}" alt="choose" />
+    </div>
+    </div>
+    <div class="col-lg-6">
+    <div class="choose-content">
+    <div class="faq-accordion">
+    <ul class="accordion">
+
+    <li class="accordion-item">
+    <a class="accordion-title active" href="javascript:void(0)">
+    <i class="bx bx-plus"></i> Increase Cholesterol
+    </a>
+    <p class="accordion-content show">
+        •  Saturated fats (found in red meat, full-fat dairy products, butter, and tropical oils like coconut and palm oil)<br>
+        •  Trans fats (present in partially hydrogenated oils used in many processed and fried foods)<br>
+        •  Processed and fried foods (including fast food, baked goods, and packaged snacks)<br>
+        •  High-fat dairy products (such as cheese, cream, and whole milk)<br>
+        •  Egg yolks (while eggs can be part of a healthy diet, the yolks are high in cholesterol)<br>
+    </p>
+    </li>
+
+    <li class="accordion-item">
+    <a class="accordion-title" href="javascript:void(0)">
+    <i class="bx bx-plus"></i>Reduce Cholesterol
+    </a>
+    <p class="accordion-content">
+        •  Oats and oat bran<br>
+        •  Beans and legumes<br>
+        •  Nuts (especially almonds, walnuts, and pistachios)<br>
+        •  Fruits (such as apples, grapes, strawberries, and citrus fruits)<br>
+        •  Vegetables (particularly leafy greens like spinach and kale, as well as broccoli and Brussels sprouts)<br>
+        •  Fatty fish (such as salmon, mackerel, and trout)<br>
+    </p>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <br><br><br><br>
+    <h2 class="left-heading">BLOOD PRESSURE</h2><br>
+    <div class="row align-items-center">
+
+    <div class="col-lg-6">
+    <div class="choose-content">
+    <div class="faq-accordion">
+    <ul class="accordion">
+
+    <li class="accordion-item">
+    <a class="accordion-title active" href="javascript:void(0)">
+    <i class="bx bx-plus"></i> Increase Blood Pressure
+    </a>
+    <p class="accordion-content show">
+        •  Sodium-rich foods: Canned soups, Processed meats (e.g., bacon, ham, sausage), Potato chips, Pickles, Cheese, Salted nuts<br>
+        •  Hydration: Coconut water, Sports drinks (e.g., Gatorade), Herbal teas (e.g., chamomile, peppermint), Milk<br>
+        •  Caffeine-containing beverages: Energy drinks, Soft drinks (e.g., cola), Dark chocolate (contains caffeine)<br>
+        •  Nitrate-rich foods: Spinach, Arugula, Celery, Radishes, Carrots<br>
+        •  Vitamin B12-rich foods: Shellfish (e.g., clams, mussels), Poultry (e.g., chicken, turkey), Fortified breakfast cereals, Fortified plant-based milk alternatives (e.g., almond milk, soy milk)<br>
+        •  Healthy fats: Salmon, Flaxseeds, Chia seeds, Walnuts, Sunflower seeds<br>
+    </p>
+    </li>
+
+    <li class="accordion-item">
+    <a class="accordion-title" href="javascript:void(0)">
+    <i class="bx bx-plus"></i>Reduce Blood Pressure
+    </a>
+    <p class="accordion-content">
+        •  Leafy green vegetables: Spinach, Kale, Swiss chard, Collard greens, Romaine lettuce<br>
+        •  Berries: Blueberries, Strawberries, Raspberries, Blackberries<br>
+        •  Beets: Beetroot, Beet greens<br>
+        •  Oats and whole grains: Oats (rolled oats, steel-cut oats, oat bran), Brown rice, Quinoa, Whole wheat, Barley<br>
+        •  Fruits: Bananas, Pomegranates, Tomatoes<br>
+        •  Fatty fish: Salmon, Mackerel, Trout, Sardines<br>
+        •  Nuts and seeds: Almonds, Walnuts, Flaxseeds, Chia seeds<br>
+        •  Low-fat dairy: Milk, Yogurt, Cheese (in moderation)<br>
+        •  Legumes: Lentils, Chickpeas, Black beans, Kidney beans<br>
+        •  Herbs and spices: Garlic, Basil, Cinnamon, Turmeric, Oregano, Rosemary<br>
+    </p>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="choose-img">
+        <img src="{{ url_for('static', filename='assets/images/diet/bp.png') }}" alt="choose" />
+    </div>
+    </div>
+    </div>
+
+
+
+    <br><br><br><br>
+    <h2 class="left-heading">BLOOD SUGAR</h2><br>
+    <div class="row align-items-center">
+        <div class="col-lg-6">
+        <div class="choose-img">
+        <img src="{{ url_for('static', filename='assets/images/diet/diabetes.png') }}" alt="choose" />
+        </div>
+        </div>
+        <div class="col-lg-6">
+        <div class="choose-content">
+        <div class="faq-accordion">
+        <ul class="accordion">
+    
+    
+        <li class="accordion-item">
+        <a class="accordion-title" href="javascript:void(0)">
+        <i class="bx bx-plus"></i>Reduce Blood Sugar
+        </a>
+        <p class="accordion-content">
+            •  Non-Starchy Vegetables: Leafy greens (spinach, kale, lettuce), Broccoli, Cauliflower, Bell peppers, Cucumber, Brussels sprouts, Zucchini<br>
+            •  Whole Grains: Brown rice, Quinoa, Oats, Barley, Whole wheat bread (in moderation)<br>
+            •  Lean Proteins: Chicken breast, Turkey breast, Fish (salmon, tuna, mackerel), Tofu, Lentils, Beans (black beans, kidney beans)<br>
+            •  Healthy Fats: Avocado, Olive oil, Nuts (almonds, walnuts, pistachios), Seeds (chia seeds, flaxseeds)<br>
+            •  Fruits (in moderation due to natural sugars): Berries (blueberries, strawberries, raspberries), Citrus fruits (oranges, grapefruits), Apples, Pears<br>
+            •  Dairy (choose low-fat options): Greek yogurt (unsweetened), Cottage cheese (low-fat), Skim milk<br>
+            •  Herbs and Spices: Cinnamon, Turmeric, Garlic, Ginger, Fenugreek<br>
+            •  Beverages: Water, Green tea (unsweetened), Herbal teas (such as chamomile or peppermint)<br>
+        </p>
+        </li>
+        </ul>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    
+
+    </div>
+</section>
+
+<style>
+    .left-heading {
+    margin-left: 550px; /* Adjust the value as needed */
+}
+</style>
+
+
+
+<footer class="footer-area pt-100">
+<div class="container">
+<div class="row">
+<div class="col-lg-4 col-md-6">
+<div class="content">
+<div class="logo">
+<a href="/"><img src="{{ url_for('static', filename='assets/images/new_logo.png') }}" alt="logo" /></a>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="content ml-15">
+<h3>Our Service</h3>
+<ul class="footer-list">
+<li><a> Health Assessments</a></li>
+<li><a> Diet Plans</a></li>
+<li><a> Exercise Routines</a></li>
+<li><a> Regular Updates</a></li>
+<li><a> Blog</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-2 col-md-6">
+<div class="content">
+<h3>Quick Links</h3>
+<ul class="footer-list">
+<li><a href="/prognosis">Prognosis</a></li>
+<li><a href="/diet">Diet</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="content contacts">
+<h3 class="ml-40">Contact</h3>
+<ul class="footer-list foot-social">
+<li><i class="bx bxs-envelope"></i><a href="/contact"> Contact</a></li>
+<li><i class="bx bxs-map"></i><a href="https://srkrec.edu.in/"> SRKR Engineering College, Bhimavaram, Andhra Pradesh</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="copy-area">
+<div class="container">
+<div class="row">
+<div class="col-lg-6">
+<ul class="menu">
+<li><a href="/">HOME</a></li>
+<li><a href="/about">ABOUT</a></li>
+<li><a href="/prognosis">PROGNOSIS</a></li>
+<li><a href="/diet">DIET</a></li>
+<li><a href="/cardioguide">CARDIO GUIDE</a></li>
+<li><a href="/blog">BLOG</a></li>
+<li><a href="/contact">CONTACT</a></li>
+</ul>
+</div>
+<div class="col-lg-6">
+<p class="right">
+Copyright @2023 CardioHealth Provisions.
+</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+
+<style>
+
+    .redimagehigh{
+        filter: drop-shadow(10px 7px 10px Red);
+    }
+
+    .whiteimagehigh{
+        filter: drop-shadow(10px 7px 10px );
+    }
+
+</style>
+
+
+
+<div class="go-top">
+<i class="bx bx-chevrons-up"></i>
+<i class="bx bx-chevrons-up"></i>
+</div>
+
+
+<script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/bootstrap.bundle.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/meanmenu.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/magnific-popup.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/owl.carousel.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/wow.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/isotope.pkgd.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/ajaxchimp.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/form-validator.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/contact-form-script.js') }}"></script>
+
+<script src="{{ url_for('static', filename='assets/js/main.js') }}"></script>
+</body>
+
+</html>
